@@ -1,7 +1,7 @@
 ---
 title: "Political case studies"
 description: |
-  Selected case studies from my recent political engagements
+  Selected case studies from my recent political work
 #author:
 #  - name: Nora Jones 
 #    url: https://example.com/norajones
