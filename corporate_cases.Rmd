@@ -1,0 +1,77 @@
+---
+title: "Corporate case studies"
+description: |
+  Selected case studies from my recent corporate work
+#author:
+#  - name: Nora Jones 
+#    url: https://example.com/norajones
+#    affiliation: Spacely Sprockets
+#    affiliation_url: https://example.com/spacelysprokets
+#date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## A consumer financial services company in the Fortune 500
+
+### Situation
+
+A consumer financial services company in the Fortune 500 planned to launch a digital media campaign to drive growth on its platform. The company wanted to know which strategic concept would lift consumer usage the most. 
+
+### Intervention
+
+We used the scientific method to measure the lift from three possible concepts. Specifically, we designed and conducted a randomized-controlled experiment with a nationally representative sample of about 1,400 consumers. We found that the most effective of the three concepts lifted usage by 36%, more than twice the other two.
+
+### Result
+
+The company reported a 24% year-over-year increase in overall consumer usage during the following quarter. Further, the company’s executives now have a data app for exploring 18 marketing metrics across 22 consumer segments as they plan future advertising campaigns.  
+
+
+## A healthcare and pharmaceutical company in the Fortune 500
+
+### Situation
+
+A healthcare and pharmaceutical company in the Fortune 500 planned to expand its infant formula line with a new version of its flagship product that would have only organic ingredients.  The company wanted to know which product labeling would lift parents’ preference for its formula the most. 
+
+### Intervention
+
+We used the scientific method to measure the lift from 47 possible features to include in the product labeling.  Specifically, we designed and conducted a conjoint experiment with a national sample of about 1,000 potential and actual parents. We found that the most effective of the organic standards lifted preference by 16%, more than four times the least effective one.
+
+### Result
+
+The company reported a 10% year-over-year increase in pediatric nutrition sales during the following quarter. Further, the company’s executives now have a data app for exploring preferences across 1,440,000 possible infant formula labels — with different combinations of prices, brands, protein types, organic standards, specializations, brain and eye nutrients, and pediatrician and parental recommendations — as they plan future product expansions.
+
+
+## A retail company in the Fortune 500
+
+### Situation
+
+A retail company in the Fortune 500 faced a major wrongful death lawsuit and engaged one of the preeminent civil litigation firms as defense. Counsel wanted to know which trial strategy would reduce the company’s exposure to damages the most.
+
+### Intervention
+
+We used the scientific method to estimate the level of damages under two possible strategies. Specifically, we designed and conducted a randomized-controlled experiment with a sample of about 700 potential jurors from the jurisdiction. We found that the more effective of the two strategies reduced damages awarded by $1.1 million, less than one third the alternative.
+
+### Result
+
+Defense counsel leveraged the study to obtain a faster and more favorable settlement for the company. Further, the firm’s partners now have a data app that calculates the probability of each level of damages as they try similar cases.
+
+
+## An ad agency that is a three-time *AdAge* Small Agency of the Year winner
+
+### Situation
+
+The Variable is a hybrid advertising agency and management consultancy that won *AdAge* Small Agency of the Year for 2015, 2017, and 2018. The Variable was developing the branding for a new energy drink with non-artificial ingredients. The firm wanted to know which labeling would lift consumer preference for the energy drink the most.
+
+### Intervention
+
+We used the scientific method to measure the lift from 71 possible features to include in the product labeling. Specifically, we designed and conducted a conjoint experiment with a national sample of about 800 consumers.  We found that the most effective description of non-artificial ingredients lifted preference by 32%, more than twice the least effective one.
+
+### Result
+
+Over 1,000,000 units of the energy drink sold at about 1,600 retail locations by the middle of the next year. Further, the firm’s executives now have a data app for exploring preferences across 29,030,400 possible energy drink labels — with different combinations of prices, brands, taglines, origins, flavors, ingredients, vitamins, and calories — as they plan future beverage brands.  
