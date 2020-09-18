@@ -1,0 +1,15 @@
+name: "distill_website"
+title: "Alex Oliver, Ph.D."
+description: |
+  Alex Oliver, Ph.D.
+base_url: https://alexoliver.io
+output_dir: "docs"
+navbar:
+  right:
+    - text: "About"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Contact"
+      href: contact.html
+output: distill::distill_article

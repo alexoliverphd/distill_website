@@ -1,0 +1,26 @@
+---
+title: "Contact"
+description: ""
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Email
+
+alex@alexoliver.io
+
+
+### Phone
++1 (202) 489 4950
+
+
+### Office
+
+1200 18th Street NW  
+Washington, DC 20036  
+United States  
+
+
+

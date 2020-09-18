@@ -1,0 +1,38 @@
+---
+title: "About"
+description:
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I’m Alex Oliver, chief data scientist at ES Partners / Evolving Strategies in Washington, D.C. I use the scientific method to change people’s opinions and behavior at scale for clients. I conduct survey and field experiments, use Bayesian statistics and machine learning, and primarily code in R.
+
+I help Fortune 500 companies and political independent expenditure organizations. Since 2017, I’ve led over 50 research engagements that have impacted over 100 million consumers and voters.
+
+<aside>
+Here's an aside.
+```{r}
+library(tidyverse)
+ggplot(mtcars, aes(hp, mpg)) + geom_point() + geom_smooth()
+```
+</aside>
+
+My research has been presented to Capitol Hill and the White House. It has also been covered in *The New Yorker*, *Politico*, *Adweek*, and other media.
+
+$$
+\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}
+$$
+
+I’ve held lectureships at Brandeis University and Boston University. I’ve also taught courses on public opinion, voter behavior, and campaign strategy.
+
+I have a Ph.D. in political science from Boston University. I also have an M.A. in economics from Tufts University and a B.A. in economics from Merrimack College.
+
+## Acknowledgements{.appendix}
+
+This is pretty awesome. Compared to Hugo, that is.
+
+
