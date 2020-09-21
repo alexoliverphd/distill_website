@@ -22,4 +22,6 @@ navbar:
 #      href: https://github.com/alexoliverphd
     - icon: fab fa-linkedin
       href: https://linkedin.com/in/ajoliver
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    css: style.css
