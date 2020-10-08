@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://alexoliver.io/blog.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -19,29 +20,26 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Alex Oliver, Ph.D.: Political case studies</title>
+  <title>Alex Oliver, Ph.D.: Blog</title>
   
-  <meta property="description" itemprop="description" content="Selected case studies from my recent political work"/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Alex Oliver, Ph.D.: Political case studies"/>
+  <meta property="og:title" content="Alex Oliver, Ph.D.: Blog"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Selected case studies from my recent political work"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Alex Oliver, Ph.D."/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Alex Oliver, Ph.D.: Political case studies"/>
-  <meta property="twitter:description" content="Selected case studies from my recent political work"/>
+  <meta property="twitter:title" content="Alex Oliver, Ph.D.: Blog"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Political case studies"]},{"type":"character","attributes":{},"value":["Selected case studies from my recent political work\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Blog"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1292,12 +1290,12 @@
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Political case studies","description":"Selected case studies from my recent political work","authors":[]}
+{"title":"Blog","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1331,52 +1329,355 @@ Case Studies
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+<style type="text/css">
+
+/* Styles for listing layout (hide title) */
+.layout-listing d-title, .layout-listing .d-title {
+  display: none;
+}
+
+/* Styles for posts lists (not auto-injected) */
+
+
+.posts-with-sidebar {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.posts-list .description h2,
+.posts-list .description p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.posts-list .description h2 {
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.posts-list h2.post-tag {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 12px;
+}
+.posts-list {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.posts-list .post-preview {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+}
+
+.post-preview-last {
+  border-bottom: none !important;
+}
+
+.posts-list .posts-list-caption {
+  grid-column: screen;
+  font-weight: 400;
+}
+
+.posts-list .post-preview h2 {
+  margin: 0 0 6px 0;
+  line-height: 1.2em;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.posts-list .post-preview p {
+  margin: 0 0 12px 0;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.posts-list .post-preview .thumbnail {
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  position: relative;
+  max-width: 500px;
+}
+.posts-list .post-preview img {
+  width: 100%;
+  display: block;
+}
+
+.posts-list .metadata {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 18px;
+}
+
+.posts-list .metadata > * {
+  display: inline-block;
+}
+
+.posts-list .metadata .publishedDate {
+  margin-right: 1em;
+}
+
+.posts-list .metadata .tags {
+  margin-top: 1em;
+}
+
+.posts-list .tags .tag {
+  color: rgba(0,0,0,0.67);
+  padding: 0.3em 0.5em;
+  margin: 0;
+  font-size: 80%;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.posts-list img {
+  opacity: 1;
+}
+
+.posts-list img[data-src] {
+  opacity: 0;
+}
+
+.posts-more {
+  clear: both;
+}
+
+
+.posts-sidebar {
+  font-size: 16px;
+}
+
+.posts-sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+
+.categories li>a {
+  border-bottom: none;
+}
+
+.categories li>a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.categories .active {
+  font-weight: 600;
+}
+
+.categories .category-count {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media(min-width: 768px) {
+  .posts-list .post-preview h2 {
+    font-size: 26px;
+  }
+  .posts-list .post-preview .thumbnail {
+    float: right;
+    width: 35%;
+    margin-bottom: 0;
+  }
+  .posts-list .post-preview .description {
+    float: left;
+    width: 45%;
+  }
+  .posts-list .post-preview .metadata {
+    float: left;
+    width: 15%;
+    margin-top: 8px;
+  }
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+  .posts-with-sidebar .posts-list {
+    float: left;
+    width: 72%;
+  }
+  .posts-with-sidebar .posts-sidebar {
+    float: right;
+    width: 20%;
+    margin-top: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.downlevel .posts-list .post-preview {
+  color: inherit;
+}
+
+</style>
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).load(function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace("#", "");
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if (category == page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption">Blog</h1>
+<a href="posts/welcome/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 17, 2020</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>Welcome to Alex Oliver, Ph.D.</h2>
+<p>Welcome to our new blog, Alex Oliver, Ph.D.. We hope you enjoy 
+reading what we have to say!</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Political case studies</h1>
-<p><p>Selected case studies from my recent political work</p></p>
+<h1>Blog</h1>
+
 </div>
 
 
 <div class="d-article">
-<h3 class="d-toc-header">Table of Contents</h3>
-<nav class="d-toc" id="TOC">
-<ul>
-<li><a href="#a-nonprofit-cofounded-by-a-former-presidential-candidate">A nonprofit cofounded by a former presidential candidate</a></li>
-<li><a href="#a-super-pac-endorsed-by-a-former-speaker-of-the-house">A Super PAC endorsed by a former Speaker of the House</a></li>
-<li><a href="#a-nonprofit-developing-a-position-on-the-family-act">A nonprofit developing a position on the FAMILY Act</a></li>
-<li><a href="#a-behavioral-science-firm-finding-evidence-of-racial-discrimination-in-plaintiff-verdicts">A behavioral science firm finding evidence of racial discrimination in plaintiff verdicts</a></li>
-</ul>
-</nav>
-<hr class="d-toc-separator"/>
-<h2 id="a-nonprofit-cofounded-by-a-former-presidential-candidate">A nonprofit cofounded by a former presidential candidate</h2>
-<h3 id="situation">Situation</h3>
-<p>Stand Up Republic Foundation (SURF) was cofounded by former 2016 independent presidential candidate Evan McMullin and advocates for reforming election law and preventing foreign interference in elections. Stand Up Ideas planned to launch a digital media campaign to educate people about disinformation tactics and stop their spread. The organization wanted to know which video advertisement would lift people’s skepticism of “fake news” the most.</p>
-<h3 id="intervention">Intervention</h3>
-<p>We used the scientific method to measure the lift from three possible advertisements. Specifically, we designed and conducted randomized-controlled trial with a nationally representative sample of about 1,700 people. We found that the most effective of the three advertisements lifted skepticism by 21% among Donald Trump voters but by just 3% among Hillary Clinton voters.</p>
-<h3 id="result">Result</h3>
-<p>The organization’s campaign more effectively lifted people’s skepticism of fake news, especially for Trump voters. Further, we presented the study at the University of Cincinnati as part of its cybersecurity initiative.</p>
-<h2 id="a-super-pac-endorsed-by-a-former-speaker-of-the-house">A Super PAC endorsed by a former Speaker of the House</h2>
-<h3 id="situation-1">Situation</h3>
-<p>A Super PAC endorsed by a former Speaker of the House planned to spend over $400,000 to elect congressional, senatorial, and gubernatorial candidates in the swing states of Michigan and Pennsylvania. The organization wanted to know which political advertisements would lift voters’ support for its candidates the most.</p>
-<h3 id="intervention-1">Intervention</h3>
-<p>We used the scientific method to measure the lift from six possible advertisements. Specifically, we designed and conducted a randomized-controlled trial with a representative sample of about 4,600 registered voters in Michigan and Pennsylvania. We found that the most effective of the six advertisements lifted support by 23% overall. Further, we applied machine learning to our proprietary voter files to predict the individual lift for each of the 14.6 million voters in the two states.</p>
-<h3 id="result-1">Result</h3>
-<p>The organization more effectively lifted overall support for its candidates in Michigan and Pennsylvania by only targeting advertisements to the top 1 million voters with the greatest predicted individual lift. Further, the organization’s targeted advertising campaign led to the outperformance of its candidates on election day.</p>
-<h2 id="a-nonprofit-developing-a-position-on-the-family-act">A nonprofit developing a position on the FAMILY Act</h2>
-<h3 id="situation-2">Situation</h3>
-<p>Independent Women’s Forum is an educational nonprofit that advocates for reforming the workplace through its Women at Work project. Independent Women’s Forum was developing a policy position on the Family and Medical Insurance Leave (FAMILY) Act, which would provide up to 12 weeks of partially paid leave to nearly all workers. The organization wanted to know which features of a job would lift women’s preference for an employer the most.</p>
-<h3 id="intervention-2">Intervention</h3>
-<p>We used the scientific method to measure the lift from 67 possible features of a job. Specifically, we designed and conducted a conjoint experiment with a nationally representative sample of about 1,000 women. We found that providing 12 weeks of partially paid leave lifted preference by 10%. But this is less than half the 22% lift from offering flexible schedules, reduced hours, and telecommuting.</p>
-<h3 id="result-2">Result</h3>
-<p>The organization took a position against the FAMILY Act and in favor of workplace flexibility options. The study was featured in <em>The Washington Post</em> and presented at the Workplace LEAD summit. Further, the organization’s leadership now has a data app for exploring women’s preferences across 165,888,000 combinations of job features — with different combinations of flexibility, vacation and sick days, paid leave, health insurance, and salary — as they develop future policy positions.</p>
-<h2 id="a-behavioral-science-firm-finding-evidence-of-racial-discrimination-in-plaintiff-verdicts">A behavioral science firm finding evidence of racial discrimination in plaintiff verdicts</h2>
-<h3 id="situation-3">Situation</h3>
-<p>ES Partners was developing a prototype for a new legal analytics product called <em>JuryRank</em> for use by counsel during jury selection before civil trials. The firm wanted to rank every potential juror in a jurisdiction from most to least generous in awarding damages to plaintiffs in personal injury cases.</p>
-<h3 id="intervention-3">Intervention</h3>
-<p>We used the scientific method to estimate the level of damages under six case scenarios and 512 plaintiff profiles. Specifically, we designed and conducted a conjoint experiment with a representative sample of about 700 registered voters in New Jersey. We then applied machine learning to our propretiary voter files to predict the individual damages awarded by each of the 5.3 million voters in the state. We found evidence of racial discrimination: white voters awarded black plaintiffs five percent less in damages than white plaintiffs, all else equal.</p>
-<h3 id="result-3">Result</h3>
-<p>Civil litigation firms that subscribe to the <em>JuryRank</em> prototype leverage generosity rankings of potential jurors to obtain more favorable plaintiff verdicts and settlements for clients. Although many studies show racial discrimination against <em>black defendants in criminal cases</em>, this study is the first to show the same against <em>black plaintiffs in civil cases</em>. Further, the study was featured on <em>Real Clear Markets</em> and presented at the National Board of Trial Advocacy (NBTA) All Star Conference.</p>
+
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
