@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Situation
 
-Stand Up Republican Foundation (SURF) was cofounded by former 2016 independent presidential candidate Evan McMullin and advocates for reforming election law and preventing foreign interference in elections. Stand Up Ideas planned to launch a digital media campaign to educate people about disinformation tactics and stop their spread. The organization wanted to know which video advertisement would lift people’s skepticism of “fake news” the most. 
+Stand Up Republic Foundation (SURF) was cofounded by former 2016 independent presidential candidate Evan McMullin and advocates for reforming election law and preventing foreign interference in elections. Stand Up Ideas planned to launch a digital media campaign to educate people about disinformation tactics and stop their spread. The organization wanted to know which video advertisement would lift people’s skepticism of “fake news” the most. 
 
 ### Intervention
 
@@ -75,5 +75,5 @@ We used the scientific method to estimate the level of damages under six case sc
 
 ### Result
 
-Civil litigation firms that subscribe to the *JuryRank* prototype leverage generosity rankings of potential jurors to obtain more favorable plaintiff verdicts and settlements for clients. Although many studies show racial discrimination against *black defendents in criminal cases*, this study is the first to show the same against *black plaintiffs in civil cases*. Further, the study was featured on *Real Clear Markets* and presented at the National Board of Trial Advocacy (NBTA) All Star Conference. 
+Civil litigation firms that subscribe to the *JuryRank* prototype leverage generosity rankings of potential jurors to obtain more favorable plaintiff verdicts and settlements for clients. Although many studies show racial discrimination against *black defendants in criminal cases*, this study is the first to show the same against *black plaintiffs in civil cases*. Further, the study was featured on *Real Clear Markets* and presented at the National Board of Trial Advocacy (NBTA) All Star Conference. 
 
