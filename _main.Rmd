@@ -1,0 +1,223 @@
+---
+title: "About Me"
+description: 
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I’m Alex Oliver, chief data scientist at ES Partners / Evolving Strategies in Washington, D.C. I use the scientific method to change people’s opinions and behavior at scale for clients. I conduct survey and field experiments, use Bayesian statistics and machine learning, and primarily code in R.
+
+I help Fortune 500 companies and political independent expenditure organizations. Since 2017, I’ve led over 50 research engagements that have impacted over 100 million consumers and voters.
+
+My research has been presented to Capitol Hill and the White House. It has also been covered in *The New Yorker*, *Politico*, *Adweek*, and other media.
+
+I’ve held lectureships at Brandeis University and Boston University. I’ve also taught courses on public opinion, voter behavior, and campaign strategy.
+
+I have a Ph.D. in political science from Boston University. I also have an M.A. in economics from Tufts University and a B.A. in economics from Merrimack College.
+
+
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "Blog"
+listing: posts
+---
+
+<!--chapter:end:blog.Rmd-->
+
+---
+title: "Contact"
+description: ''
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Email
+
+alex@alexoliver.io
+
+
+### Phone
++1 (202) 489 4950
+
+
+### Office
+
+1200 18th Street NW  
+Washington, DC 20036  
+United States  
+
+
+
+
+<!--chapter:end:contact.Rmd-->
+
+---
+title: "Corporate case studies"
+description: |
+  Selected case studies from my recent corporate work
+#author:
+#  - name: Nora Jones 
+#    url: https://example.com/norajones
+#    affiliation: Spacely Sprockets
+#    affiliation_url: https://example.com/spacelysprokets
+#date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## A consumer financial services company in the Fortune 500
+
+### Situation
+
+A consumer financial services company in the Fortune 500 planned to launch a digital media campaign to drive growth on its platform. The company wanted to know which strategic concept would lift consumer usage the most. 
+
+### Intervention
+
+We used the scientific method to measure the lift from three possible concepts. Specifically, we designed and conducted a randomized-controlled experiment with a nationally representative sample of about 1,400 consumers. We found that the most effective of the three concepts lifted usage by 36%, more than twice the other two.
+
+### Result
+
+The company reported a 24% year-over-year increase in overall consumer usage during the following quarter. Further, the company’s executives now have a data app for exploring 18 marketing metrics across 22 consumer segments as they plan future advertising campaigns.  
+
+
+## A healthcare and pharmaceutical company in the Fortune 500
+
+### Situation
+
+A healthcare and pharmaceutical company in the Fortune 500 planned to expand its infant formula line with a new version of its flagship product that would have only organic ingredients.  The company wanted to know which product labeling would lift parents’ preference for its formula the most. 
+
+### Intervention
+
+We used the scientific method to measure the lift from 47 possible features to include in the product labeling.  Specifically, we designed and conducted a conjoint experiment with a national sample of about 1,000 potential and actual parents. We found that the most effective of the organic standards lifted preference by 16%, more than four times the least effective one.
+
+### Result
+
+The company reported a 10% year-over-year increase in pediatric nutrition sales during the following quarter. Further, the company’s executives now have a data app for exploring preferences across 1,440,000 possible infant formula labels — with different combinations of prices, brands, protein types, organic standards, specializations, brain and eye nutrients, and pediatrician and parental recommendations — as they plan future product expansions.
+
+
+## A retail company in the Fortune 500
+
+### Situation
+
+A retail company in the Fortune 500 faced a major wrongful death lawsuit and engaged one of the preeminent civil litigation firms as defense. Counsel wanted to know which trial strategy would reduce the company’s exposure to damages the most.
+
+### Intervention
+
+We used the scientific method to estimate the level of damages under two possible strategies. Specifically, we designed and conducted a randomized-controlled experiment with a sample of about 700 potential jurors from the jurisdiction. We found that the more effective of the two strategies reduced damages awarded by $1.1 million, less than one third the alternative.
+
+### Result
+
+Defense counsel leveraged the study to obtain a faster and more favorable settlement for the company. Further, the firm’s partners now have a data app that calculates the probability of each level of damages as they try similar cases.
+
+
+## An ad agency that is a three-time *AdAge* Small Agency of the Year winner
+
+### Situation
+
+The Variable is a hybrid advertising agency and management consultancy that won *AdAge* Small Agency of the Year for 2015, 2017, and 2018. The Variable was developing the branding for a new energy drink with non-artificial ingredients. The firm wanted to know which labeling would lift consumer preference for the energy drink the most.
+
+### Intervention
+
+We used the scientific method to measure the lift from 71 possible features to include in the product labeling. Specifically, we designed and conducted a conjoint experiment with a national sample of about 800 consumers.  We found that the most effective description of non-artificial ingredients lifted preference by 32%, more than twice the least effective one.
+
+### Result
+
+Over 1,000,000 units of the energy drink sold at about 1,600 retail locations by the middle of the next year. Further, the firm’s executives now have a data app for exploring preferences across 29,030,400 possible energy drink labels — with different combinations of prices, brands, taglines, origins, flavors, ingredients, vitamins, and calories — as they plan future beverage brands.  
+
+<!--chapter:end:corporate_cases.Rmd-->
+
+---
+title: "Political case studies"
+description: |
+  Selected case studies from my recent political work
+#author:
+#  - name: Nora Jones 
+#    url: https://example.com/norajones
+#    affiliation: Spacely Sprockets
+#    affiliation_url: https://example.com/spacelysprokets
+#date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## A nonprofit cofounded by a former presidential candidate
+
+### Situation
+
+Stand Up Republic Foundation (SURF) was cofounded by former 2016 independent presidential candidate Evan McMullin and advocates for reforming election law and preventing foreign interference in elections. Stand Up Ideas planned to launch a digital media campaign to educate people about disinformation tactics and stop their spread. The organization wanted to know which video advertisement would lift people’s skepticism of “fake news” the most. 
+
+### Intervention
+
+We used the scientific method to measure the lift from three possible advertisements. Specifically, we designed and conducted randomized-controlled trial with a nationally representative sample of about 1,700 people. We found that the most effective of the three advertisements lifted skepticism by 21% among Donald Trump voters but by just 3% among Hillary Clinton voters.  
+
+### Result
+
+The organization’s campaign more effectively lifted people’s skepticism of fake news, especially for Trump voters. Further, we presented the study at the University of Cincinnati as part of its cybersecurity initiative.
+
+
+## A Super PAC endorsed by a former Speaker of the House
+
+### Situation
+
+A Super PAC endorsed by a former Speaker of the House planned to spend over $400,000 to elect congressional, senatorial, and gubernatorial candidates in the swing states of Michigan and Pennsylvania. The organization wanted to know which political advertisements would lift voters' support for its candidates the most.
+
+### Intervention
+
+We used the scientific method to measure the lift from six possible advertisements. Specifically, we designed and conducted a randomized-controlled trial with a representative sample of about 4,600 registered voters in Michigan and Pennsylvania. We found that the most effective of the six advertisements lifted support by 23% overall. Further, we applied machine learning to our proprietary voter files to predict the individual lift for each of the 14.6 million voters in the two states.
+
+### Result
+
+The organization more effectively lifted overall support for its candidates in Michigan and Pennsylvania by only targeting advertisements to the top 1 million voters with the greatest predicted individual lift. Further, the organization's targeted advertising campaign led to the outperformance of its candidates on election day.
+
+
+## A nonprofit developing a position on the FAMILY Act
+
+### Situation
+
+Independent Women’s Forum is an educational nonprofit that advocates for reforming the workplace through its Women at Work project. Independent Women’s Forum was developing a policy position on the Family and Medical Insurance Leave (FAMILY) Act, which would provide up to 12 weeks of partially paid leave to nearly all workers.  The organization wanted to know which features of a job would lift women’s preference for an employer the most.
+
+### Intervention
+
+We used the scientific method to measure the lift from 67 possible features of a job. Specifically, we designed and conducted a conjoint experiment with a nationally representative sample of about 1,000 women. We found that providing 12 weeks of partially paid leave lifted preference by 10%. But this is less than half the 22% lift from offering flexible schedules, reduced hours, and telecommuting.  
+
+### Result
+
+The organization took a position against the FAMILY Act and in favor of workplace flexibility options. The study was featured in *The Washington Post* and presented at the Workplace LEAD summit. Further, the organization’s leadership now has a data app for exploring women’s preferences across 165,888,000 combinations of job features — with different combinations of flexibility, vacation and sick days, paid leave, health insurance, and salary — as they develop future policy positions. 
+
+
+## A behavioral science firm finding evidence of racial discrimination in plaintiff verdicts
+
+### Situation
+
+ES Partners was developing a prototype for a new legal analytics product called *JuryRank* for use by counsel during jury selection before civil trials. The firm wanted to rank every potential juror in a jurisdiction from most to least generous in awarding damages to plaintiffs in personal injury cases.  
+
+
+### Intervention
+
+We used the scientific method to estimate the level of damages under six case scenarios and 512 plaintiff profiles. Specifically, we designed and conducted a conjoint experiment with a representative sample of about 700 registered voters in New Jersey.  We then applied machine learning to our propretiary voter files to predict the individual damages awarded by each of the 5.3 million voters in the state. We found evidence of racial discrimination: white voters awarded black plaintiffs five percent less in damages than white plaintiffs, all else equal.
+
+### Result
+
+Civil litigation firms that subscribe to the *JuryRank* prototype leverage generosity rankings of potential jurors to obtain more favorable plaintiff verdicts and settlements for clients. Although many studies show racial discrimination against *black defendants in criminal cases*, this study is the first to show the same against *black plaintiffs in civil cases*. Further, the study was featured on *Real Clear Markets* and presented at the National Board of Trial Advocacy (NBTA) All Star Conference. 
+
+
+<!--chapter:end:political_cases.Rmd-->
+
