@@ -1,6 +1,6 @@
 ---
-title: "About"
-description:
+title: "About me"
+description: 
 site: distill::distill_website
 ---
 
